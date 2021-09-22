@@ -1,0 +1,40 @@
+html {
+    background-color:black;
+}
+
+.options {
+    width: 29%;
+    height: 100px;
+    background-color: turquoise;
+    font-size: 32px;
+    margin: 15px;
+}
+#container {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+    
+#textarea {
+    width: 100%;
+    height: 225px;
+    font-size: 32px;
+    
+}
+#out2 {
+    color: yellow;
+    font-size: 32px;
+}
+#play {
+    width: 100%;
+    height: 125px;
+    font-size: 32px;
+    
+}
+
+#reset {
+    width: 100%;
+    height: 70px;
+    font-size: 32px;
+}

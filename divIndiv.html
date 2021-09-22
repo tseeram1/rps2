@@ -1,0 +1,35 @@
+<body>
+  <h1>
+    THE TITLE OF YOUR WEBPAGE
+  </h1>
+  <div id="container">
+  	
+  </div>
+</body>
+
+const container = document.querySelector('#container');
+
+const content = document.createElement('div');
+const para1 = document.createElement('p');
+const heading = document.createElement('h3');
+const div = document.createElement('div');
+const h1  = document.createElement('h1');
+const para2 = document.createElement('p');
+content.classList.add('content');
+content.textContent = 'This is the glorious text-content!';
+
+para1.textContent = 'Hey im red';
+heading.textContent = 'Im a blue h3';
+h1.textContent = 'Im  in a div';
+para2.textContent = 'Mee too';
+para1.style.color = 'red';
+heading.style.color = 'blue';
+div.style.backgroundColor = 'pink';
+div.style.border = '1px solid black';
+
+div.appendChild(h1);
+div.appendChild(para2);
+container.appendChild(content);
+container.appendChild(para1);
+container.appendChild(heading);
+container.appendChild(div);
